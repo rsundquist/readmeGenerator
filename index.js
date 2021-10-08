@@ -11,20 +11,14 @@ inquirer.prompt(
 
     {
         type: 'input',
-        message="How do you install your app?",
-        name:'intallation',
+        message="What packages do you need to install?",
+        name:'Installation',
         validate: (value)=>{ if(value){return true} else {return 'Need a value to continue'}},
     },
     {
         type: 'input',
-        message="Instructions for app?",
+        message="Installation instructions for app?",
         name:'Instructions',
-        validate: (value)=>{ if(value){return true} else {return 'Need a value to continue'}},
-    },
-    {
-        type: 'input',
-        message="How do you install your app?",
-        name:'intallation',
         validate: (value)=>{ if(value){return true} else {return 'Need a value to continue'}},
     },
     {
@@ -46,5 +40,12 @@ inquirer.prompt(
         name:'Username',
         validate: (value)=>{ if(value){return true} else {return 'Need a value to continue'}},
     },
+    {
+        type: 'input',
+        message="Email",
+        name:'Email',
+        validate: (value)=>{ if(value){return true} else {return 'Need a value to continue'}},
+    },
+    
 
 )
