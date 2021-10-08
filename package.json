@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rsundquist/readmeGenerator/issues"
   },
-  "homepage": "https://github.com/rsundquist/readmeGenerator#readme"
+  "homepage": "https://github.com/rsundquist/readmeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }
