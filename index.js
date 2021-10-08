@@ -4,14 +4,14 @@ const fs = require('fs');
 const readMeData = (input) => `
 # Project Title
 ${input.projectTitle}
-## Installation
-${input.installation}    
+## Packages
+${input.packages}    
 ## Usage/Examples
 ${input.usage}
-## Contributing
-${input.contributing}
-## Running Tests
-${input.runningTests}
+## License
+${input.license}
+## Github Profile
+${input.githubProfile}
 ## Feedback
 If you have any feedback, please reach out to us at ${input.feedback}
 `
@@ -44,8 +44,8 @@ inquirer
       },
       {
         type: 'input',
-        name: 'runningTests',
-        message: 'What command do you run to test?',
+        name: 'githubProfile',
+        message: 'Please provide a link to your github profile?',
         
       },
       {
