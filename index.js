@@ -8,8 +8,8 @@ ${input.projectTitle}
 ${input.packages}    
 ## Usage/Examples
 ${input.usage}
-## License
-${input.license}
+## Repo
+${input.repo}
 ## Github Profile
 ${input.githubProfile}
 ## Feedback
