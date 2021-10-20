@@ -36,10 +36,10 @@ inquirer
         
       },
       {
-        type: 'list',
-        name: 'license',
-        message: 'Which license did you use?',
-        choices:['The MIT License', 'The GPL License', 'Apache License', "NA"],
+        type: 'input',
+        name: 'repo',
+        message: 'What is your repo called?',
+    
         
       },
       {
